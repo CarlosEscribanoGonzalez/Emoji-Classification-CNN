@@ -39,6 +39,9 @@ Convolutional Neural Network built in PyTorch to classify emoji images into five
 * Validation loss close to **0.1** in the best runs (0.1071 in the best recorded one)
 * **~95% accuracy** on an external test set
 * Results vary between runs (validation loss around 0.3 in the worst cases, with some overfitting), because both the train/validation split and the data augmentation are random
+<p align = "center">
+  <img width="620" height="472" alt="training and validation loss" src="https://github.com/user-attachments/assets/5182b2c6-2bed-4158-b4c3-0ed02b8de539" />
+</p>
 
 ## Usage
 * Open the notebook in Jupyter or Google Colab
