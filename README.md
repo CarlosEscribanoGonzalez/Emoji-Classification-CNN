@@ -19,6 +19,10 @@ Convolutional Neural Network built in PyTorch to classify emoji images into five
 * Random rotations and translations
 * Brightness and contrast changes
 * Transformations kept mild so augmented images stay close to the original appearance
+<p align = "center">
+  <img width="640" height="365" alt="Normal emojis" src="https://github.com/user-attachments/assets/bab784bc-19ea-4570-b7ce-69ce453b7dc8" />
+  <img width="640" height="365" alt="Data augmentation" src="https://github.com/user-attachments/assets/0f69a167-e256-4d15-a43d-bb809b3a879b" />
+</p>
 
 **Model**
 * Padding in the convolutions, to avoid losing information too quickly on small images
