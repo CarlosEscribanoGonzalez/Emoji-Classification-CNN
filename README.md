@@ -1,3 +1,7 @@
+## Project Information
+* **Creation date**: November 25, 2025
+* **Context:** Master's Degree Project
+
 ## Overview
 Convolutional Neural Network built in PyTorch to classify emoji images into five categories: airplanes, birds, boats, rabbits and felines. The dataset is small and the final test set is private, so the focus of the project is on reducing overfitting and training a network that generalizes rather than memorizes.
 
@@ -8,7 +12,6 @@ Convolutional Neural Network built in PyTorch to classify emoji images into five
 * Success is measured by how well the model generalizes, tracked through the validation loss
 
 ## Approach
-
 **Data pipeline**
 * Random split into training, validation and (in early stages) testing subsets
 * Images and labels converted to tensors and wrapped in `DataLoader`s
@@ -46,6 +49,10 @@ Convolutional Neural Network built in PyTorch to classify emoji images into five
 <p align = "center">
   <img width="620" height="472" alt="training and validation loss" src="https://github.com/user-attachments/assets/5182b2c6-2bed-4158-b4c3-0ed02b8de539" />
 </p>
+
+## Technologies
+* Python
+* PyTorch
 
 ## Usage
 * Open the notebook in Jupyter or Google Colab
